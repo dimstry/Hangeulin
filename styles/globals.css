@@ -2,26 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
+.home::before {
+  content: "";
+  position: absolute;
+  top: -240px;
+  left: -202px;
+  width: 456px;
+  height: 456px;
+  border-radius: 50%;
+  background: rgba(244, 148, 177, 0.61);
+  filter: blur(100px);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
-  }
+@font-face {
+  font-family: "Poppins";
+  src: url("../public/fonts/Poppins-Regular.ttf");
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@font-face {
+  font-family: "PoppinsBold";
+  src: url("../public/fonts/Poppins-Bold.ttf");
+  font-weight: bold;
 }
