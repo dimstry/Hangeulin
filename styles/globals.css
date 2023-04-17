@@ -24,3 +24,16 @@
   src: url("../public/fonts/Poppins-Bold.ttf");
   font-weight: bold;
 }
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: url("../public/fonts/Poppins-Light.ttf");
+}
+
+.primary-gradient {
+  background: linear-gradient(95.48deg, #f4c237 0%, #e1a90c 88.17%);
+}
+
+.secondary-gradient {
+  background: linear-gradient(94.18deg, #056aad 0%, #045285 88.5%);
+}

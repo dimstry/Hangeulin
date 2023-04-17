@@ -9,7 +9,7 @@ import CardService from "./CardService";
 
 export default function Service() {
   return (
-    <div className="container mx-auto mt-5">
+    <div className="container mx-auto mt-24">
       <div className="flex gap-5">
         <div className="w-1/2">
           <h2 className="text-4xl font-Poppins leading-[3.5rem]">
