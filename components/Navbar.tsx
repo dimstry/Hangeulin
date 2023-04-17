@@ -29,9 +29,9 @@ export default function Navbar() {
 
   return (
     <nav
-      className={`container mx-auto h-[80px] w-full md:mt-5 px-5 md:px-0 z-50 fixed md:relative top-0 transition-all ${
+      className={`container mx-auto w-full md:mt-5 px-5 md:px-0 z-50 fixed md:relative top-0 transition-all ${
         scroll ? "bg-white md:bg-transparent" : ""
-      } ${isOpen ? `h-[70px] overflow-hidden` : "h-[250px] md:h-[80px]"}`}
+      } ${!isOpen ? `h-[70px] overflow-hidden` : "h-[250px] md:h-[80px]"}`}
     >
       <ul className="flex flex-col md:flex-row md:items-center justify-between py-4 w-full gap-5 md:gap-0">
         <div className="flex items-center justify-between">
@@ -46,7 +46,7 @@ export default function Navbar() {
             className="flex items-center space-x-4 md:hidden"
             onClick={() => setIsOpen(!isOpen)}
           >
-            {!isOpen ? (
+            {isOpen ? (
               <Image src={Close} width={35} height={35} alt={""} />
             ) : (
               <svg
