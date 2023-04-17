@@ -1,7 +1,7 @@
-import Facebook from "../public/img/facebook.png";
-import Instagram from "../public/img/instagram.png";
-import Twitter from "../public/img/twitter.png";
-import Line from "../public/img/line.png";
+import Facebook from "@/public/img/Facebook.png";
+import Instagram from "@/public/img/Instagram.png";
+import Twitter from "@/public/img/Twitter.png";
+import Line from "@/public/img/Line.png";
 import Link from "next/link";
 import Image from "next/image";
 
