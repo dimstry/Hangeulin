@@ -5,7 +5,7 @@ import HeroMember from "../public/img/HeroMember.png";
 export default function Member() {
   return (
     <div className="container mx-auto mt-24 px-5 md:px-0">
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col lg:flex-row">
         <div className="flex flex-col md:w-1/2 font-Poppins">
           <h3 className="text-xll md:w-[505px] pr-10">
             Apa yang member kami katakan

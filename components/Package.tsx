@@ -14,7 +14,7 @@ export default function Package() {
           convallis sit vitae donec amet.
         </p>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] items-center mt-[24px]">
+      <div className="grid grid-cols-1 place-items-center lg:grid-cols-3 gap-[24px] items-center mt-[24px]">
         <div className="bg-[#FEF7E5] md:w-[417px] h-[469px] rounded-lg p-6">
           <h3 className="font-Poppins font-semibold text-xl text-center">
             Paket 1

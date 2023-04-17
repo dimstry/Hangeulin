@@ -9,7 +9,7 @@ export default function Footer() {
   return (
     <footer>
       <div className="mt-24 bg-[#FAE3A4]">
-        <div className="md:pl-[70px] md:pr-[69px] py-[32px] px-5 md:px-0 flex flex-col md:flex-row justify-between">
+        <div className="md:pl-[70px] md:pr-[69px] py-[32px] px-5 md:px-0 flex flex-col md:grid md:grid-cols-3 md:gap-5 lg:flex lg:flex-row lg:justify-between">
           <div className="flex flex-col w-[307px] font-Poppins">
             <h2 className="text-3xl md:text-4xl font-bold text-[#045285]">
               Hangeul

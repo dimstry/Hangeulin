@@ -4,7 +4,7 @@ export default function JoinUs() {
       <div className="bg-[#F4C237] w-full md:h-[234px] rounded-lg p-[48px] flex flex-col md:flex-row md:justify-between md:items-center">
         <div className="flex flex-col">
           <h3 className="text-3xl font-bold font-Poppins">Siap Bergabung</h3>
-          <p className="text-base font-PoppinsLight mt-[24px] md:w-[590px]">
+          <p className="text-base font-PoppinsLight mt-[24px] lg:w-[590px] md:w-[450px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices
             laoreet eget in id donec arcu nunc. Tortor risus adipiscing elit
             euismod montes, eget. Purus diam ultricies sed adipiscing at feugiat
