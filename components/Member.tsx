@@ -4,13 +4,13 @@ import HeroMember from "../public/img/HeroMember.png";
 
 export default function Member() {
   return (
-    <div className="container mx-auto mt-24 pt-10 pb-10">
-      <div className="flex">
-        <div className="flex flex-col w-1/2 font-Poppins">
-          <h3 className="text-xll w-[505px] pr-10">
+    <div className="container mx-auto mt-24 px-5 md:px-0">
+      <div className="flex flex-col md:flex-row">
+        <div className="flex flex-col md:w-1/2 font-Poppins">
+          <h3 className="text-xll md:w-[505px] pr-10">
             Apa yang member kami katakan
           </h3>
-          <p className="text-base font-PoppinsLight mt-3 w-[628px]">
+          <p className="text-base font-PoppinsLight mt-3 md:w-[628px]">
             “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Tempor,
             nulla iaculis eget id arcu est cras. Purus at interdum est in lorem
             aliquam. Arcu, enim purus cras commodo aliquam purus a, justo nulla.
@@ -30,7 +30,7 @@ export default function Member() {
             </div>
           </div>
         </div>
-        <div className="flex w-1/2 justify-center">
+        <div className="flex md:w-1/2 justify-center">
           <Image src={HeroMember} width={457} height={457} alt={""} />
         </div>
       </div>

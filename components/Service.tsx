@@ -9,10 +9,10 @@ import CardService from "./CardService";
 
 export default function Service() {
   return (
-    <div className="container mx-auto mt-24">
-      <div className="flex gap-5">
-        <div className="w-1/2">
-          <h2 className="text-4xl font-Poppins leading-[3.5rem]">
+    <div className="container mx-auto mt-24 px-5">
+      <div className="flex flex-col md:flex-row gap-5">
+        <div className="md:w-1/2">
+          <h2 className="text-3xl md:text-4xl font-Poppins md:leading-[3.5rem]">
             Layanan Kami Dalam Membantu Anda
           </h2>
           <Image
@@ -23,7 +23,7 @@ export default function Service() {
             className="mt-5"
           />
         </div>
-        <div className="w-1/2 md:mt-16">
+        <div className="md:w-1/2 md:mt-16">
           <div className="grid grid-cols-2 gap-x-5 gap-y-6">
             <CardService
               img={Materi}

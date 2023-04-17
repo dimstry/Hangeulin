@@ -5,17 +5,17 @@ import ChecklistSelect from "@/public/img/ChecklistSelect.png";
 
 export default function Package() {
   return (
-    <div className="container mx-auto mt-24">
+    <div className="container mx-auto mt-24 px-5 md:px-0">
       <h2 className="text-3xl font-Poppins text-center">Pilih Paket</h2>
-      <div className="w-[59%] mx-auto mt-5">
+      <div className="md:w-[59%] mx-auto mt-5">
         <p className="text-lg text-center font-thin">
           Quisque aliquam, faucibus est massa phasellus turpis pellentesque nam
           tristique. Facilisi varius sed ridiculus cras lacus. Elementum in in
           convallis sit vitae donec amet.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-[24px] items-center mt-[24px]">
-        <div className="bg-[#FEF7E5] w-[417px] h-[469px] rounded-lg p-6">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-[24px] items-center mt-[24px]">
+        <div className="bg-[#FEF7E5] md:w-[417px] h-[469px] rounded-lg p-6">
           <h3 className="font-Poppins font-semibold text-xl text-center">
             Paket 1
           </h3>
@@ -53,7 +53,7 @@ export default function Package() {
             </div>
           </div>
         </div>
-        <div className="bg-[#F4C237] w-[417px] h-[571px] rounded-lg p-6">
+        <div className="bg-[#F4C237] md:w-[417px] h-[571px] rounded-lg p-6">
           <h3 className="font-Poppins font-semibold text-xl text-center">
             Paket 2
           </h3>
@@ -99,7 +99,7 @@ export default function Package() {
             </div>
           </div>
         </div>
-        <div className="bg-[#FEF7E5] w-[417px] h-[469px] rounded-lg p-6">
+        <div className="bg-[#FEF7E5] md:w-[417px] h-[469px] rounded-lg p-6">
           <h3 className="font-Poppins font-semibold text-xl text-center">
             Paket 3
           </h3>
